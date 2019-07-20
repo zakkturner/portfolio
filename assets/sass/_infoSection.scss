@@ -1,0 +1,123 @@
+
+    .logo {
+        border: 5px solid #fff;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        color: white;
+        line-height: 0;
+        font-family: 'Alex Brush', cursive;
+
+    }
+
+    .info-section {
+        padding: 54px;
+        width: 35%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+
+        .info-box {
+
+            position: absolute;
+            bottom: 60px;
+
+            h4 {
+                font-size: 1.2rem;
+                color: $color3;
+                margin: .7rem 0;
+            }
+
+            p {
+                font-size: .9rem;
+                font-weight: 300;
+                color: $color3;
+                margin: .2rem 0 1.5rem;
+            }
+        }
+
+        .icon-section {
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 2rem;
+                padding: 0 10px;
+
+                &:hover{
+                    color: $hover;
+                }
+
+                &:first-child {
+                    padding: 0 10px 0 0;
+                }
+            }
+        }
+    }
+
+    .content-area {
+        background: $color3;
+        margin-left: 35%;
+        width: 65%;
+        background: white;
+        height: 100%;
+
+        // padding: 0 0 0 25%;
+        .img-container {
+            width: 30%;
+            display: inline-block;
+            position: relative;
+
+            .user-img {
+                position: absolute;
+                top: -405px;
+                left: -200px;
+                width: 365px;
+                height: 380px;
+                background-size: contain !important;
+                -webkit-box-shadow: 9px 20px 71px 6px rgba(0, 0, 0, 0.34);
+                -moz-box-shadow: 9px 20px 71px 6px rgba(0, 0, 0, 0.34);
+                box-shadow: 9px 20px 71px 6px rgba(0, 0, 0, 0.34);
+            }
+
+        }
+
+        .profile-section {
+            display: inline-block;
+            width: 75%;
+            padding: 20% 0 0;
+            max-width: 500px;
+
+            .profile {
+                h1 {
+                    font-size: 2.3rem;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    margin: 0 0 1rem;
+
+                    span {
+                        color: $color1;
+
+                    }
+                }
+
+                h5 {
+                    font-size: 1.1rem;
+                    margin: 0 0 2rem !important;
+                }
+
+                p {
+                    color: $color5;
+                    font-weight: 300;
+                    line-height: 1.4;
+                    margin: 0 0 2rem;
+                }
+
+            }
+        }
+
+
+    }
